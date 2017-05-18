@@ -24,8 +24,7 @@ module.exports = (teamRepository) => {
         update: updateTeam,
         deleteTeam: deleteTeam,
         getAllTeams: getAllTeams,
-        getTeamById: getTeamById,
-        getTeams: getTeams
+        getTeamById: getTeamById
     };
     function createTeam(data) {
         return new Promise((resolve, reject) => {
