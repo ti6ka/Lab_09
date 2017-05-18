@@ -42,7 +42,7 @@ app.use('/api',function(req, res, next) {
     };
     next();
 });
-//
+
 const port = process.env.PORT || 3000;
 
 dbcontext.sequelize
